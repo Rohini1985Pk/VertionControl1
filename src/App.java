@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
-        int age = 65; 
+        int age = 10; 
         
         if (age > 0 && age < 18)
         { 
@@ -9,6 +9,10 @@ public class App {
             if (age >= 15) 
             {
                 System.out.println("You can drive a moped."); 
+            }
+            else if (age==10)
+            {
+                System.out.println("Anniversary Party!"); 
             }
         } 
         else if (age >= 65) 
