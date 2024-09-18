@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
-        int age = 15; 
+        int age = 65; 
         
         if (age > 0 && age < 18)
         { 
