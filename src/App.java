@@ -19,7 +19,11 @@ public class App {
         { 
             System.out.println("You are retired."); 
         } 
-        
+
+        else if (age == 70 || age == 80 || age == 90 || age == 100 )     
+        {
+            System.out.println("Anniversary Party!");
+        }
         else 
         { 
             System.out.println("You are an adult."); 
